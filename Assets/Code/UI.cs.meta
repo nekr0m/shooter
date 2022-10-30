@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 30434e95b401bce488b683c8339fa4b4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Stat: {fileID: 11400000, guid: bb91e34e760809a479db99e14ab7a4cc, type: 2}
+  - gg: {instanceID: 0}
+  - GGhpImage: {instanceID: 0}
+  - GGmpImage: {instanceID: 0}
+  - GGhpText: {instanceID: 0}
+  - GGmpText: {instanceID: 0}
+  - ScoreText: {instanceID: 0}
+  - MenuScoreText: {instanceID: 0}
+  - Ult: {instanceID: 0}
+  - Shoot: {instanceID: 0}
+  - Menu: {instanceID: 0}
+  - CloseMenu: {instanceID: 0}
+  - Lose: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

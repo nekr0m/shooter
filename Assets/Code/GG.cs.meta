@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 154f1b25feeaf2e4e97e084dbe3a0b33
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Stat: {fileID: 11400000, guid: bb91e34e760809a479db99e14ab7a4cc, type: 2}
+  - gg: {instanceID: 0}
+  - ui: {instanceID: 0}
+  - Spa: {instanceID: 0}
+  - Shoot: {instanceID: 0}
+  - GGpos: {instanceID: 0}
+  - pos1: {instanceID: 0}
+  - pos2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

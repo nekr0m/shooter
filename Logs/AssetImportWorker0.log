@@ -1,0 +1,436 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.14393) 64bit EnterpriseS' Language: 'ru' Physical Memory: 4039 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/TZ shooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63160
+Successfully changed project path to: D:/unity/TZ shooter
+D:/unity/TZ shooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 161.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/TZ shooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6670 (ID=0x6758)
+    Vendor:   ATI
+    VRAM:     2036 MB
+    Driver:   15.201.1151.1008
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.029277 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 191.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2049ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1419ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (953ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (151ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (192ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (197ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010272 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\TZ shooter\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity\TZ shooter\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2836ms)
+		BeginReloadAssembly (486ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (1969ms)
+			LoadAssemblies (320ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (651ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (862ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (491ms)
+				ProcessInitializeOnLoadMethodAttributes (163ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3245 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (112.5 KB). Loaded Objects now: 3708.
+Memory consumption went from 112.8 MB to 112.7 MB.
+Total: 6.515912 ms (FindLiveObjects: 0.503556 ms CreateObjectMapping: 0.239067 ms MarkObjects: 5.469690 ms  DeleteObjects: 0.295289 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 250467.596674 seconds.
+  path: Assets/Prefabs/Blue.prefab
+  artifactKey: Guid(5b6f155ece25a4640b09927ba8f6d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blue.prefab using Guid(5b6f155ece25a4640b09927ba8f6d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d41e4cf01a0d193c4eb5d127d5a654') in 4.253893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055326 seconds.
+  path: Assets/Prefabs/Red.prefab
+  artifactKey: Guid(3af9b8f26633d894eacdac923f02059f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Red.prefab using Guid(3af9b8f26633d894eacdac923f02059f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e87af037c1a85f8aea185be31cc80e6') in 0.054218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/Bullet2.prefab
+  artifactKey: Guid(4f91a1c711ca3914eb2416af0ee071fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet2.prefab using Guid(4f91a1c711ca3914eb2416af0ee071fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203fa6394c44663a85161aa80c7faf75') in 0.033671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(032c0f606500ab747b3871aa7b93116d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(032c0f606500ab747b3871aa7b93116d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3c0f0c31b47ef2d5ff4f9359571db5') in 0.021603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.394038 seconds.
+  path: Assets/Joystick Pack/Scripts
+  artifactKey: Guid(07b685cbd69eaf049b40883b45f5bae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts using Guid(07b685cbd69eaf049b40883b45f5bae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96fa52d4c6c6f96591ccfa097d9cf88') in 0.009861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034239 seconds.
+  path: Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs
+  artifactKey: Guid(ba0d0e7a039f526499c356a3c5cd6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs using Guid(ba0d0e7a039f526499c356a3c5cd6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4bee75cc3d7eb6d999008d682663d') in 0.105969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016431 seconds.
+  path: Assets/Code/Move.cs
+  artifactKey: Guid(97984487309ad1c48b1c2e364dfc76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Move.cs using Guid(97984487309ad1c48b1c2e364dfc76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8200c316b665d4b2c25a1c84454fe362') in 0.007407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003947 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor
+  artifactKey: Guid(8bf1b896f4e24d441975cb6f11f92e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Editor using Guid(8bf1b896f4e24d441975cb6f11f92e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e12821381305f4b5362363c1d3d410') in 0.008310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003936 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.007552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064345 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs
+  artifactKey: Guid(d4b2b0d911a01a64ebfca9918e2b90b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs using Guid(d4b2b0d911a01a64ebfca9918e2b90b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae19806248200d4799a9f010bc33f5d') in 0.010589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298878 seconds.
+  path: Assets/Code/UI.cs
+  artifactKey: Guid(30434e95b401bce488b683c8339fa4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/UI.cs using Guid(30434e95b401bce488b683c8339fa4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18ae6c805b3049579bea84d3f8fd2a5') in 0.008704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Joystick Pack
+  artifactKey: Guid(4b1dbb0a8a0669340822ba7b08738257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack using Guid(4b1dbb0a8a0669340822ba7b08738257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a817a5cd7f498af3d640685ac996de') in 0.007739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031105 seconds.
+  path: Assets/Joystick Pack/Scripts/Base/Joystick.cs
+  artifactKey: Guid(b9fca4100a7477741b3973b4ff2c405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Base/Joystick.cs using Guid(b9fca4100a7477741b3973b4ff2c405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0900e26f591ed1a0f3d598ac570e05d4') in 0.008275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033947 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles
+  artifactKey: Guid(6f3c65e147711ac449f6bbd5e7da81df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Handles using Guid(6f3c65e147711ac449f6bbd5e7da81df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037797c4c95675d990677215c6e91188') in 0.008646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f0cf51f8b0cef36afc222b69fe3d05') in 0.007478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.282221 seconds.
+  path: Assets/Joystick Pack/Examples/Example Scene.unity
+  artifactKey: Guid(414bddd31c5ea4f4c9f5d1452e5bbb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Example Scene.unity using Guid(414bddd31c5ea4f4c9f5d1452e5bbb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6390661db72fa1dd460b235629a8224') in 0.007513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059754 seconds.
+  path: Assets/Code/GG.cs
+  artifactKey: Guid(154f1b25feeaf2e4e97e084dbe3a0b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/GG.cs using Guid(154f1b25feeaf2e4e97e084dbe3a0b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7b0a1ea19d166a5e3a05c7d498c405') in 0.008599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds
+  artifactKey: Guid(90487ea2fbd75ca4aafda6529e728976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds using Guid(90487ea2fbd75ca4aafda6529e728976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bff343d1512e8d516636b1e8ea88b2d') in 0.008777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.138750 seconds.
+  path: Assets/Joystick Pack/Prefabs
+  artifactKey: Guid(d41e4075f56d1e1438b3af3673ec6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Prefabs using Guid(d41e4075f56d1e1438b3af3673ec6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dfa16a52ae54f96d1517e43324129d') in 0.021381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050672 seconds.
+  path: Assets/Code/Bot.cs
+  artifactKey: Guid(72ce5312e03333e49a0d5e74afd5a9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Bot.cs using Guid(72ce5312e03333e49a0d5e74afd5a9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7434cad69858a25f92e0d3b65c5fb0') in 0.002574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.232440 seconds.
+  path: Assets/Joystick Pack/Scripts/Base
+  artifactKey: Guid(04bf1fec540b6ee4987dc6524756477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Base using Guid(04bf1fec540b6ee4987dc6524756477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fb1f4ca2908874a82693c995d401f0') in 0.008861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.276602 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs
+  artifactKey: Guid(614d06243900d764f9c50b4da2c950a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs using Guid(614d06243900d764f9c50b4da2c950a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc34e6f18d0d10936f741abec3af2c0') in 0.009941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173612 seconds.
+  path: Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs
+  artifactKey: Guid(7a47f546fc70ec8428172694e78e4288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs using Guid(7a47f546fc70ec8428172694e78e4288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0158cf444e43eb14bbfa5548b8439ec1') in 0.007608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.095871 seconds.
+  path: Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs
+  artifactKey: Guid(42844a4fccbd54746b90cade4ff70f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs using Guid(42844a4fccbd54746b90cade4ff70f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c0d66526bb8b136b584fb0dbc3f84d') in 0.008683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004514 seconds.
+  path: Assets/Joystick Pack/Examples/Player.mat
+  artifactKey: Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Player.mat using Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5a259c4977c3978d8f8a49e9d1434c') in 0.445946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.136988 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds
+  artifactKey: Guid(8ca78f589dc53fd419c85dd20ea22ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds using Guid(8ca78f589dc53fd419c85dd20ea22ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256515bf63e9c8a6335dd3c079e167da') in 0.022190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007731 seconds.
+  path: Assets/Code/BotHp.cs
+  artifactKey: Guid(ed397cbbb59f37342a57e7ef29a29f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/BotHp.cs using Guid(ed397cbbb59f37342a57e7ef29a29f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a4b2497ed9ef1edff1999d89212856') in 0.008062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.211466 seconds.
+  path: Assets/Joystick Pack/Documentaion.pdf
+  artifactKey: Guid(cfa813ed406827e43b967abd54ab5b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Documentaion.pdf using Guid(cfa813ed406827e43b967abd54ab5b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb436e9a6692d512fdb33a4be1681996') in 0.051991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212844 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds
+  artifactKey: Guid(4fe6b423a92ebaf4bb564f9457fa74e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds using Guid(4fe6b423a92ebaf4bb564f9457fa74e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41d19508ffa5bad6b0bda610631d53d') in 0.013421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.409620 seconds.
+  path: Assets/Joystick Pack/Examples/JoystickPlayerExample.cs
+  artifactKey: Guid(a37d705c8e9115e439ec799186182634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/JoystickPlayerExample.cs using Guid(a37d705c8e9115e439ec799186182634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab92fa40d4991c2adeb0f11be5ff7a2') in 0.007453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025797 seconds.
+  path: Assets/Joystick Pack/Examples/JoystickSetterExample.cs
+  artifactKey: Guid(3d73bf03f88f371469fd7b43fc97d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/JoystickSetterExample.cs using Guid(3d73bf03f88f371469fd7b43fc97d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1313ee4f5547abe6dce4baf767e507') in 0.008017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.332414 seconds.
+  path: Assets/Code/Bullet2.cs
+  artifactKey: Guid(adfe02ee19afdc94aa8da13f114ad36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Bullet2.cs using Guid(adfe02ee19afdc94aa8da13f114ad36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b9c45417e1efe6870aba1aec686c6') in 0.002541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163022 seconds.
+  path: Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs
+  artifactKey: Guid(45977bbae16431c46a013576a1aea384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs using Guid(45977bbae16431c46a013576a1aea384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90952c9c865eeb26b04878c47ed7ee25') in 0.007674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004200 seconds.
+  path: Assets/Joystick Pack/Examples
+  artifactKey: Guid(5a71259a40885244a8fda03175513ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples using Guid(5a71259a40885244a8fda03175513ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a802018d1f65edbfece9325f9dc08655') in 0.030183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131124 seconds.
+  path: Assets/Joystick Pack/Sprites
+  artifactKey: Guid(f36f8459cb8c3fd44ba4390ba9652af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Sprites using Guid(f36f8459cb8c3fd44ba4390ba9652af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd20ee0d73c0c9f2930a6afb43c79c06') in 0.009120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160981 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs
+  artifactKey: Guid(52071c88a467b46438b3cbf159bf988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs using Guid(52071c88a467b46438b3cbf159bf988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aec37e7d8cfd35c3d6ce046cef07e26') in 0.007983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092899 seconds.
+  path: Assets/Code/Stats.cs
+  artifactKey: Guid(2112e9d8d9ec087428969a0de34ab251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Stats.cs using Guid(2112e9d8d9ec087428969a0de34ab251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c977247ad3d6ee3ce95c3d00858e3fc0') in 0.026427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024096 seconds.
+  path: Assets/Code/Spawners.cs
+  artifactKey: Guid(ccbba646435c82346abeb876b510fe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Spawners.cs using Guid(ccbba646435c82346abeb876b510fe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eceab22e9b23e4b651b09b839f71a9') in 0.008640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032133 seconds.
+  path: Assets/Code/Bullet.cs
+  artifactKey: Guid(711d7e53c32e35b4a95848a0bf0084bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Bullet.cs using Guid(711d7e53c32e35b4a95848a0bf0084bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d30c949d8f41fbde25b5ace7fd0140') in 0.002291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055720 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs
+  artifactKey: Guid(58b5a2db95af76c4c9d4116a09ec3697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs using Guid(58b5a2db95af76c4c9d4116a09ec3697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd291da3a73a7e3c8ddff72bd36ea1f3f') in 0.008818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004863 seconds.
+  path: Assets/Joystick Pack/Examples/Ground.mat
+  artifactKey: Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Ground.mat using Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1587f6f6fd6c37a4ce16b961c86bd719') in 0.056662 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1222.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (76.6 KB). Loaded Objects now: 3754.
+Memory consumption went from 53.2 MB to 53.1 MB.
+Total: 6.340890 ms (FindLiveObjects: 0.471289 ms CreateObjectMapping: 0.264000 ms MarkObjects: 5.434490 ms  DeleteObjects: 0.164267 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
